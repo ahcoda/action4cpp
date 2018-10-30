@@ -7,10 +7,12 @@ include_directories("/usr/local/include/orocos")
 include_directories("/usr/local/include/cppunit")
 link_directories("/usr/local/lib")
 link_directories("/usr/lib")
+
 # add_definitions("-Wall -std=c++14 -llog4cpp -lpthread")
 add_definitions("-Wall -std=c++11")
 set(SRC_LIST main.cpp
-    
+    test1/test.cpp
+    ../src/vender/easylogging++.cc
     )
 
 add_executable(t ${SRC_LIST})

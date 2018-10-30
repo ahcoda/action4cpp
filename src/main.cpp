@@ -19,6 +19,7 @@ void initLogger(int argc, char **argv)
     /// 设置级别门阀值，修改参数可以控制日志输出
     el::Loggers::setLoggingLevel(el::Level::Global);
 }
+
 int main(int argc, char **argv)
 {
     initLogger(argc, argv);
