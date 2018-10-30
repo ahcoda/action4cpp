@@ -15,4 +15,5 @@ set(SRC_LIST src/main.cpp
     src/mode1/a.cpp
     )
 
+add_subdirectory("test")
 add_executable(1 ${SRC_LIST})
