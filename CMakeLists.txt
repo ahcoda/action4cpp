@@ -7,7 +7,7 @@ include_directories("/usr/local/include/orocos")
 link_directories("/usr/local/lib")
 link_directories("/usr/local/include")
 # add_definitions("-Wall -std=c++14 -llog4cpp -lpthread")
-add_definitions("-Wall -std=c++11 -lpthread")
+add_definitions("-Wall -std=c++11")
 aux_source_directory(src DIR_SRCS)
 
 set(SRC_LIST src/main.cpp
