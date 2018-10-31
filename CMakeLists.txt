@@ -13,6 +13,8 @@ aux_source_directory(src DIR_SRCS)
 set(SRC_LIST src/main.cpp
     src/vender/easylogging++.cc
     src/vender/args_converter.cxx
+    src/repl/repl.cpp
+    src/logger/logger.cpp
     src/mode1/a.cpp
 )
 
